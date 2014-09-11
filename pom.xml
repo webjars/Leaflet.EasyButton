@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>Leaflet.EasyButton</artifactId>
-    <version>0b147ac</version>
+    <version>0b148ac-SNAPSHOT</version>
     <name>Leaflet.EasyButton</name>
     <description>WebJar for Leaflet.EasyButton</description>
     <url>http://webjars.org</url>
@@ -36,7 +36,7 @@
         <url>https://github.com/webjars/Leaflet.EasyButton</url>
         <connection>scm:git:https://github.com/webjars/Leaflet.EasyButton.git</connection>
         <developerConnection>scm:git:https://github.com/webjars/Leaflet.EasyButton.git</developerConnection>
-        <tag>Leaflet.EasyButton-0b147ac</tag>
+        <tag>HEAD</tag>
     </scm>
     
     <properties>
