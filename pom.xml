@@ -11,7 +11,7 @@
     <packaging>jar</packaging>
     <groupId>org.webjars</groupId>
     <artifactId>Leaflet.EasyButton</artifactId>
-    <version>2.0.0-SNAPSHOT</version>
+    <version>2.0.0</version>
     <name>Leaflet.EasyButton</name>
     <description>WebJar for Leaflet.EasyButton</description>
     <url>http://webjars.org</url>
@@ -36,7 +36,7 @@
         <url>https://github.com/webjars/Leaflet.EasyButton</url>
         <connection>scm:git:https://github.com/webjars/Leaflet.EasyButton.git</connection>
         <developerConnection>scm:git:https://github.com/webjars/Leaflet.EasyButton.git</developerConnection>
-        <tag>HEAD</tag>
+        <tag>Leaflet.EasyButton-2.0.0</tag>
     </scm>
     
     <properties>
@@ -63,9 +63,9 @@
                         <goals><goal>run</goal></goals>
                         <configuration>
                             <target>
-                                <mkdir dir="${destDir}"/>
-                                <get src="${upstream.url}/easy-button.js" dest="${destDir}"/>
-                                <get src="${upstream.url}/easy-button.css" dest="${destDir}"/>
+                                <mkdir dir="${destDir}" />
+                                <get src="${upstream.url}/easy-button.js" dest="${destDir}" />
+                                <get src="${upstream.url}/easy-button.css" dest="${destDir}" />
                             </target>
                         </configuration>
                     </execution>
